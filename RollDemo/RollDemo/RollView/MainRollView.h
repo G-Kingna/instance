@@ -33,9 +33,9 @@
 @property(nonatomic, assign)id<MainRollViewDelegate>delegate;//点击图片回调代理
 
 /**
- *  设置图片轮播的数据源，单张图片轮播时间，是否开启轮播，数据源是否为本地
+ *  设置图片轮播的数据源，占位图，单张图片轮播时间，是否开启轮播
  *
- *  @param array        存放图片的数组（元素类型:UIImage）
+ *  @param array        存放图片的数组
  *  @param placeholderImage  占位图
  *  @param duration   定时器时间
  *  @param isRolling   是否开启自动轮播
